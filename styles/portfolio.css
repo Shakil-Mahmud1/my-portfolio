@@ -1,32 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
-* {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap"); * {
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
 }
-.header-bg{
-    background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+
+.header-bg {
+    background-color: rgb(255, 248, 243);
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right,left;
+    background-position: right bottom, left center;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     padding: 50px 200px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     margin-right: 35px;
-
 }
-.nav-btn{
+
+.nav-btn {
     width: 140px;
     height: 58px;
-    background-color: #FD6E0A;
+    background-color: rgb(253, 110, 10);
     color: white;
     padding: 18px 35px;
     font-size: 18px;
@@ -35,13 +38,16 @@ nav ul li{
     border-radius: 5px;
     cursor: pointer;
 }
+
 .nav-title {
     font-weight: 800;
     font-size: 45px;
 }
+
 .primary-text {
-    color: #FD6E0A;
+    color: rgb(253, 110, 10);
 }
+
 .header-content {
     display: flex;
 }
@@ -62,17 +68,18 @@ nav ul li{
     font-size: 70px;
     line-height: 120px;
 }
+
 .header-title p {
     width: 55%;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-    color: #757575;
+    color: rgb(117, 117, 117);
 }
 
 button.download-btn {
     color: white;
-    background: #FD6E0A;
+    background: rgb(253, 110, 10);
     border: none;
     padding: 15px 20px;
     margin: 20px 20px 0px 0px;
@@ -83,9 +90,9 @@ button.download-btn {
 }
 
 button.contact-btn {
-    color: #FD6E0A;
-    background: #FFF8F3;
-    border: 1px solid #f1bb96;
+    color: rgb(253, 110, 10);
+    background: rgb(255, 248, 243);
+    border: 1px solid rgb(241, 187, 150);
     padding: 15px 23px;
     margin: 20px 20px 0px 0px;
     font-weight: 600;
@@ -93,6 +100,7 @@ button.contact-btn {
     border-radius: 5px;
     cursor: pointer;
 }
+
 .container {
     width: 1140px;
     padding: 0px 15px;
@@ -102,9 +110,10 @@ button.contact-btn {
 .about-me {
     text-align: center;
 }
+
 .contziner-bg {
-    background-color: #FFF8F3;
-    margin: 100px 0;
+    background-color: rgb(255, 248, 243);
+    margin: 100px 0px;
     padding: 0px 155px 100px;
     border-radius: 10px;
 }
@@ -112,14 +121,14 @@ button.contact-btn {
 h1.about-title {
     font-weight: 700;
     font-size: 35px;
-    padding: 130px 0 26px 0;
+    padding: 130px 0px 26px;
 }
 
 p.about-discription {
     font-weight: 400;
     font-size: 17px;
     line-height: 30px;
-    color: #757575;
+    color: rgb(117, 117, 117);
     margin-bottom: 30px;
 }
 
@@ -131,9 +140,10 @@ p.about-discription {
 .about-data p {
     text-align: center;
     margin-bottom: 3px;
-    color: #757575;
+    color: rgb(117, 117, 117);
     font-size: 15px;
 }
+
 .what-I-do {
     text-align: center;
 }
@@ -146,11 +156,10 @@ p.about-discription {
 
 .what-I-do-disc {
     width: 70%;
-    margin: auto;
+    margin: auto auto 20px;
     line-height: 26px;
     font-size: 15px;
-    color: #757575;
-    margin-bottom: 20px;
+    color: rgb(117, 117, 117);
 }
 
 .main-skill {
@@ -175,7 +184,109 @@ p.about-discription {
 
 .main-skill div p {
     line-height: 29px;
-    color: #757575;
+    color: rgb(117, 117, 117);
     font-size: 16px;
     padding-bottom: 15px;
+}
+
+.summary {
+    display: flex;
+    gap: 28px;
+}
+
+.summary p {
+    color: rgb(117, 117, 117);
+    font-size: 14px;
+    line-height: 26px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.summary h5 {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    margin: 6px 0px 15px;
+}
+
+.summary h2 {
+    margin: 20px 0px 12px;
+    font-size: 22px;
+    color: rgb(71, 71, 71);
+}
+
+.summary h1 {
+    font-size: 28px;
+    color: rgb(71, 71, 71);
+}
+
+.summary hr {
+    color: rgba(225, 223, 223, 0.83);
+}
+
+.summary-title {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(24, 24, 24);
+    margin-bottom: 65px;
+    padding-top: 30px;
+}
+
+.summary-btn {
+    text-align: center;
+    margin: 30px 0px 50px;
+}
+
+#contact-sec {
+    background-color: rgb(255, 248, 243);
+}
+
+.contact-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-net h2 {
+    font-size: 36px;
+    margin: 50px 0px 16px;
+}
+
+.social-net p {
+    width: 80%;
+    line-height: 27px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(71, 71, 71);
+    margin-bottom: 20px;
+}
+
+.social-net ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+.social-net ul li {
+    margin-right: 15px;
+}
+
+.social-net ul li a {
+    text-decoration: none;
+}
+
+.social-net {
+    margin-bottom: 150px;
+}
+.mail label {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.mail label input {
+    width: 100%;
+    padding: 14px;
+    border: none;
+}
+textarea.area-btn {
+    width: 90%;
+    padding: 15px;
 }
